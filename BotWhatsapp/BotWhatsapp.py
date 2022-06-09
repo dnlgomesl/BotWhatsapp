@@ -5,7 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
 import codecs
 
-# inportar os contatos do txt
+# importar os contatos do txt
 def inputConts(nome_arquivo):
     contatos = codecs.open(nome_arquivo, 'r', 'utf-8')
     conts = contatos.readlines()
